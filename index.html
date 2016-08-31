@@ -58,13 +58,13 @@
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
-                    <li class="page-scroll animated bounceInRight">
+                    <li class="page-scroll animated fadeInRight">
                         <a href="#portfolio">Portfolio</a>
                     </li>
-                    <li class="page-scroll animated bounceInRight">
+                    <li class="page-scroll animated fadeInRight">
                         <a href="#about">About Me</a>
                     </li>
-                    <li class="page-scroll animated bounceInRight">
+                    <li class="page-scroll animated fadeInRight">
                         <a href="#contact">Contact me</a>
                     </li>
                 </ul>
@@ -79,11 +79,17 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive animated zoomInDown" src="img/profile.png" alt="">
+                    <img class="img-responsive wow fadeInUpBig" src="img/profile.png" alt="">
                     <div class="intro-text">
-                        <span class="name animated zoomIn">Sami Emad</span>
-                        <hr class="star-light">
-                        <span class="skills animated zoomInUp">Software Developer &#9679; Competitive Programmer &#9679; Technology Enthusiast</span>
+                        <span class="name wow rubberBand">Sami Emad</span>
+                        <hr class="star-light wow slideInUp">
+                        <span class="skills">
+							<span class="wow fadeInLeft"> Software Developer</span>
+							<span class="wow fadeInLeftBig"> &#9679;</span>
+							<span class="wow fadeIn"> Competitive Programmer</span>
+							<span class="wow fadeInRightBig"> &#9679;</span>
+							<span class="wow fadeInRight"> Technology Enthusiast</span>
+						</span>
                     </div>
                 </div>
             </div>
@@ -93,14 +99,14 @@
     <!-- Portfolio Grid Section -->
     <section id="portfolio">
         <div class="container">
-            <div class="row">
+            <div class="row wow zoomIn">
                 <div class="col-lg-12 text-center">
                     <h2>Portfolio</h2>
                     <hr class="star-primary">
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-4 portfolio-item wow fadeInLeft">
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -111,7 +117,7 @@
                         <img src="img/portfolio/AI.png" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-4 portfolio-item wow fadeInUp">
                     <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -122,7 +128,7 @@
                         <img src="img/portfolio/android.png" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-4 portfolio-item wow fadeInRight">
                     <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -133,7 +139,7 @@
                         <img src="img/portfolio/web.png" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-4 portfolio-item wow fadeInLeft">
                     <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -144,7 +150,7 @@
                         <img src="img/portfolio/coach.png" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-4 portfolio-item wow fadeInUp">
                     <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -155,7 +161,7 @@
                         <img src="img/portfolio/ICPC WF.png" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-4 portfolio-item wow fadeInRight">
                     <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -173,14 +179,14 @@
     <!-- About Section -->
     <section class="success" id="about">
         <div class="container">
-            <div class="row scrollAnimated bounceInLeft">
+            <div class="row wow zoomIn">
                 <div class="col-lg-12 text-center">
                     <h2>About Me</h2>
                     <hr class="star-light">
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
+                <div class="col-lg-4 col-lg-offset-2 wow fadeInLeft">
                     <p>
 						Participated in the International Collegiate Programming contest two years in a row. Namely the 2015 ICPC WF in Morocco, and the ICPC WF in Thailand.
 					</p>
@@ -191,7 +197,7 @@
 						<a href="http://codeforces.com/profile/samiemad" style="color: purple">Candidate Master</a> of Codeforces, Top 10% rating, Also contributed with some contests to the training gym.
 					</p>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 wow fadeInRight">
                     <p>
 						Designed and Developed Systems with various technologies, for various platforms, and for various clients. My experience is still building, I've come a long way but I still have so much to learn!
 					</p>
@@ -210,7 +216,7 @@
     <!-- Contact Section -->
     <section id="contact">
         <div class="container">
-            <div class="row">
+            <div class="row wow zoomIn">
                 <div class="col-lg-12 text-center">
                     <h2>Contact Me</h2>
                     <hr class="star-primary">
@@ -222,28 +228,28 @@
                     <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
                     <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
                     <form name="sentMessage" id="contactForm" action="https://formspree.io/samiemad92@gmail.com" method="POST" novalidate>
-                        <div class="row control-group">
+                        <div class="row control-group wow fadeInLeft">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Name</label>
                                 <input type="text" class="form-control" placeholder="Name" id="name" name="name" required data-validation-required-message="Please enter your name.">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
-                        <div class="row control-group">
+                        <div class="row control-group wow fadeInLeft">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Email Address</label>
                                 <input type="email" class="form-control" placeholder="Email Address" id="email" name="_replyto" required data-validation-required-message="Please enter your email address.">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
-                        <div class="row control-group">
+                        <div class="row control-group wow fadeInLeft">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Phone Number</label>
                                 <input type="tel" class="form-control" placeholder="Phone Number" id="phone" name="phone" required data-validation-required-message="Please enter your phone number.">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
-                        <div class="row control-group">
+                        <div class="row control-group wow fadeInLeft">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Message</label>
                                 <textarea rows="5" class="form-control" placeholder="Message" id="message" name="body" required data-validation-required-message="Please enter a message."></textarea>
@@ -253,7 +259,7 @@
                         <br>
                         <div id="success"></div>
                         <div class="row">
-                            <div class="form-group col-xs-12">
+                            <div class="form-group col-xs-12 wow fadeInLeft">
                                 <button type="submit" class="btn btn-success btn-lg">Send</button>
                             </div>
                         </div>
@@ -269,13 +275,13 @@
             <div class="container">
                 <div class="row">
                     <div class="footer-col col-md-4">
-                        <h3>Location</h3>
-                        <p>Al Thawra St.
+                        <h3 class="wow bounceInUp">Location</h3>
+                        <p class="wow fadeInUp">Al Thawra St.
                         <br>Latakia, Syria</p>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>Around the Web</h3>
-                        <ul class="list-inline">
+                        <h3 class="wow bounceInUp">Around the Web</h3>
+                        <ul class="list-inline wow fadeInUp">
                             <li>
                                 <a href="http://fb.com/sami.akram.emad" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
                             </li>
@@ -306,8 +312,8 @@
  -->                        </ul>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>Available for hire!</h3>
-                        <p>If you are looking for the right man for the job and you like what you saw, I'll be happy to <a href="#contact">hear from you</a>.</p>
+                        <h3 class="wow bounceInUp">Available for hire!</h3>
+                        <p class="wow fadeInUp">If you are looking for the right man for the job and you like what you saw, I'll be happy to <a href="#contact">hear from you</a>.</p>
                     </div>
                 </div>
             </div>
@@ -596,8 +602,11 @@
     <!-- Theme JavaScript -->
     <script src="js/freelancer.min.js"></script>
 	
-	<script src="js/animate.js"></script>
-
+	<script src="js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+	
 </body>
 
 </html>
